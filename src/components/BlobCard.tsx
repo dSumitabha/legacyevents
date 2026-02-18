@@ -6,29 +6,44 @@ export default function BlobCard() {
 
             <div className="relative w-72 h-80">
 
-                {/* Offset Blob Border */}
-                <div
-                    className="absolute inset-0 -translate-x-4 -translate-y-4 border border-rose-200 dark:border-stone-700"
-                    style={{
-                        clipPath:
-                            "path('M 60 10 Q 140 -10 200 40 Q 260 90 230 170 Q 200 250 120 260 Q 40 270 20 200 Q 0 130 60 10 Z')",
-                    }}
-                />
-
-                {/* Image Blob */}
-                <div
-                    className="relative w-full h-full overflow-hidden"
-                    style={{
-                        clipPath:
-                            "path('M 60 10 Q 140 -10 200 40 Q 260 90 230 170 Q 200 250 120 260 Q 40 270 20 200 Q 0 130 60 10 Z')",
-                    }}
+                {/* Offset Blob Outline */}
+                <svg
+                    className="absolute -top-4 -left-4 w-full h-full"
+                    viewBox="0 0 300 300"
+                    fill="none"
                 >
-                    <Image
-                        src="/images/wedding_sample.jpg"
-                        alt="Wedding moment"
-                        fill
-                        className="object-cover"
+                    <path
+                        d="M60 20 C140 -10 260 40 250 150 C240 260 120 280 60 220 C0 160 10 60 60 20 Z"
+                        stroke="rgb(254 205 211)"  // rose-200
+                        strokeWidth="2"
+                        className="dark:stroke-stone-700"
                     />
+                </svg>
+
+                {/* Blob Masked Image */}
+                <div className="relative w-full h-full overflow-hidden">
+                    <svg
+                        viewBox="0 0 300 300"
+                        className="absolute w-0 h-0"
+                    >
+                        <defs>
+                            <clipPath id="blobClip">
+                                <path d="M60 20 C140 -10 260 40 250 150 C240 260 120 280 60 220 C0 160 10 60 60 20 Z" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <div
+                        className="w-full h-full"
+                        style={{ clipPath: "url(#blobClip)" }}
+                    >
+                        <Image
+                            src="/images/wedding_sample.jpg"
+                            alt="Wedding moment"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                 </div>
 
             </div>
