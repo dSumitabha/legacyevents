@@ -1,6 +1,6 @@
-import RangoliDivider from "./RangoliDivider"
-import ServiceCard from "./ServiceCard"
-import Grain from "./Grain"
+import RangoliDivider from "@/components/RangoliDivider"
+import ServiceCard from "@/components/ServiceCard"
+import Grain from "@/components/Grain"
 
 export default function ServicesSection() {
     return (
