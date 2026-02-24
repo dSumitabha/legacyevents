@@ -1,5 +1,5 @@
-import HeroSection from "@/components/HeroSection"
-import ServiceSection from "@/components/ServicesSection"
+import HeroSection from "@/components/sections/HeroSection"
+import ServiceSection from "@/components/sections/ServicesSection"
 
 export default function Home() {
   return (
