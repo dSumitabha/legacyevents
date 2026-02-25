@@ -3,6 +3,7 @@ import ServiceSection from "@/components/sections/ServicesSection"
 import BrandPhilosophy from "@/components/sections/BrandPhilosophy";
 import PortfolioSection from "@/components/sections/PortfolioSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
+import HighlightReelSection from "@/components/sections/HighlightReelSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <BrandPhilosophy />
         <PortfolioSection />
         <TestimonialSection />
+        <HighlightReelSection />
     </>
   );
 }
