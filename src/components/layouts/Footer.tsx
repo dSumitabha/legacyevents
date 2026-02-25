@@ -58,7 +58,7 @@ export default function Footer() {
                             <li>Kolkata, India</li>
                             <li>
                                 <a href="mailto:hello@legacyevents.com" className="transition hover:text-rose-500">
-                                    hello@legacyevents.com
+                                    hello@legacyevents.co
                                 </a>
                             </li>
                             <li>
