@@ -2,7 +2,7 @@ import HeroSection from "@/components/sections/HeroSection"
 import ServiceSection from "@/components/sections/ServicesSection"
 import BrandPhilosophy from "@/components/sections/BrandPhilosophy";
 import PortfolioSection from "@/components/sections/PortfolioSection";
-import TestimonialSection from "@/components/testimonial/TestimonialSection";
+import TestimonialSection from "@/components/sections/TestimonialSection";
 
 export default function Home() {
   return (
