@@ -5,6 +5,7 @@ import PortfolioSection from "@/components/sections/PortfolioSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
 import HighlightReelSection from "@/components/sections/HighlightReelSection";
 import ProcessSection from "@/components/sections/ProcessSection";
+import InstagramFeedSection from "@/components/sections/InstagramFeedSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <TestimonialSection />
         <HighlightReelSection />
         <ProcessSection />
+        <InstagramFeedSection />
     </>
   );
 }
