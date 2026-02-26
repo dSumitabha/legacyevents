@@ -46,7 +46,7 @@ export default function BrandPhilosophy() {
                     <div className="relative">
                         <div className="relative overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
                             <Image
-                                src="/images/md_nadim_ali.jpg"
+                                src="/images/madam.jpg"
                                 alt="Legacy Events founder portrait"
                                 width={800}
                                 height={1000}
