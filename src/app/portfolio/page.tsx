@@ -1,6 +1,8 @@
+import FeaturedStorySection from "@/components/sections/FeaturedStorySection"
 import PortfolioGridSection from "@/components/sections/PortfolioGridSection"
 import PortfolioHeroSection from "@/components/sections/PortfolioHeroSection"
 import PortfolioIntroSection from "@/components/sections/PortfolioIntroSection"
+
 
 export default function PortfolioPage() {
     return (
@@ -8,6 +10,7 @@ export default function PortfolioPage() {
             <PortfolioHeroSection />
             <PortfolioIntroSection />
             <PortfolioGridSection />
+            <FeaturedStorySection />
         </main>
     )
 }
