@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function FeaturedStorySection() {
     return (
-        <section className="bg-white dark:bg-stone-950 py-28 md:py-36">
+        <section className="bg-rose-50 dark:bg-stone-950 py-28 md:py-36">
 
             {/* Full Width Hero Image */}
             <div className="relative w-full h-[70vh] overflow-hidden">
